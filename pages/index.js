@@ -407,7 +407,7 @@ const Mainpro = ({ webTitleLogo, sectionOne,sectionSecond,sectionThree,sectionFo
                 <div className='key-feature-text-container'>
                     <p className='key-feature-heading-title'>{sectionTen[0].fields.blog}</p>
                     <div className='image-container profile_image_wrapper'>
-                        <Image src="/assets/images/profile_pic.jpg" width={50} height={50} />
+                        <Image src="/assets/images/profile_pic.jpg" alt="Description of the image" width={50} height={50} />
                         <div className='img_txt'>
                             <h3>{sectionTen[0].fields.blogername.split('(')[0]}</h3>
                             <p>({sectionTen[0].fields.blogername.split('(')[1]}</p>
