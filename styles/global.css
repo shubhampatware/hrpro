@@ -1,0 +1,1042 @@
+.landing_page {
+    max-width: 1300px;
+    margin: auto;
+    overflow: hidden;
+  }
+  #main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .box_1 {
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(0, 255, 0); */
+  }
+  .box_2 {
+    width: 100%;
+  
+    position: relative;
+    /* background-color: red; */
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .Academic_sec {
+    margin-bottom: 6rem;
+  }
+  .large-text {
+    padding-left: 30px;
+    font-size: 72px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: -0.025em;
+    line-height: 1;
+    margin-top: 18px;
+  }
+  .top_banner {
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;
+    padding: 0 !important;
+  }
+  .top_banner .banner_innerbox {
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+  .contant_wrapper {
+    width: 500px;
+  }
+  .banner_side_bg {
+    background-color: #f9f9f9;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: -37px;
+    border-radius: 30px 0 0 30px;
+  }
+  
+  .imageContainer {
+    flex-basis: 50%;
+    text-align: center;
+    padding-right: 1rem; /* Optional: Adjust spacing between image and text */
+  }
+  
+  .dot_svg {
+    position: absolute;
+    z-index: 8;
+  }
+  .banner-img img {
+    position: absolute;
+    top: 1%;
+    top: 17%;
+    z-index: 99999999;
+    width: 100%;
+    height: 88%;
+  }
+  .Choose_HrPro {
+    margin-bottom: 6rem;
+  }
+  .Choose_HrPro img {
+    color: transparent;
+    width: 100%;
+    height: 42rem;
+  }
+  .Choose_HrPro .small-text {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #334155;
+  }
+  .Interactive_sec {
+    margin-bottom: 3rem;
+  }
+  .Interactive_sec .text_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+  }
+  .Interactive_sec .img_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+  }
+  .Interactive_sec .img_wrapper img {
+    color: transparent;
+    width: 49rem;
+    height: 28rem;
+  }
+  .Get_in_Touch .img_wrapper img {
+    width: 87%;
+    height: 100%;
+  }
+  .Interactive_sec .textContainer {
+    padding-left: 2%;
+    flex-basis: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Interactive_sec button {
+    width: 300px;
+    margin-left: 0;
+  }
+  .slider_slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+    background: rgb(236, 16, 90);
+    background: linear-gradient(
+      355deg,
+      rgba(236, 16, 90, 1) 0%,
+      rgba(161, 79, 79, 0.865983893557423) 100%
+    );
+    /* background-color: rgb(193 17 30 / .9); */
+  }
+  .slider_slider .dot_svg {
+    position: absolute;
+    left: -16px;
+    top: 6rem;
+    rotate: 10deg;
+  }
+  .slider_slider .key-feature-heading-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+  }
+  .slider_slider .key-feature-text-container {
+    width: 40%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .slider_slider .key-feature-heading-small {
+    color: #ffffff;
+  }
+  .slider_slider .img_txt {
+    text-align: left;
+  }
+  
+  .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1.5rem 2rem;
+  }
+  
+  .ai_recruitment_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .section_five_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .section_five_wrapper_textContainer {
+    padding-left: 2%;
+    flex-basis: 50%;
+    width: 650.5px;
+    height: 587px;
+    padding: 128px 24px 0px 48px;
+  }
+  
+  .section_five_heading {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: 0px;
+    padding-right: 26px;
+  }
+  
+  .section_five_imageContainer {
+    flex-basis: 50%;
+    padding-right: 0.1rem;
+  }
+  
+  .section-container .text-container {
+    flex-grow: 1;
+  }
+  
+  /* styles.css */
+  
+  .heading-title {
+    font-size: larger; /* Base size */
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: var(
+      --font-family-serif,
+      ui-sans-serif,
+      system-ui,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Noto Color Emoji"
+    );
+  }
+  
+  .heading-small {
+    font-size: x-small; /* Base size */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-weight: normal; /* Set to normal weight */
+  }
+  .Questions_sec {
+    margin-top: 6rem;
+  }
+  .Questions_sec .key-feature-text-container {
+    margin: auto;
+  }
+  .Questions_sec .ques_heading {
+    text-align: center;
+    border-bottom: 2px solid #9ca3af80;
+  }
+  .Questions_sec .comment_by {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #7e7f81;
+    width: 80%;
+    font-family: var(
+      --font-family-serif,
+      ui-sans-serif,
+      system-ui,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Noto Color Emoji"
+    );
+  }
+  .About_HrPro .text_wrapper{
+    padding-left: 3rem;
+  }
+  .Questions_sec .comment {
+    font-family: var(
+      --font-family-serif,
+      ui-sans-serif,
+      system-ui,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Noto Color Emoji"
+    );
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .Questions_sec .border_bottom {
+    border-bottom: 2px solid #9ca3af80;
+  }
+  .Questions_sec .border_bottom:last-child {
+    border-bottom: unset;
+  }
+  .get_start_wrapper {
+    position: relative;
+  }
+  .get_start_wrapper .dot_svg {
+    position: absolute;
+    z-index: 8;
+    right: 18rem;
+    top: -99px;
+    z-index: 0;
+  }
+  .get_start {
+    border: 1px solid #e1cece;
+    margin: 7rem;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 6rem 8rem !important;
+    position: relative;
+  }
+  
+  .get_start .image_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .get_start img {
+    margin: 0.5rem 0.25rem;
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: red;
+    border: 2px solid red;
+  }
+  .get_start .second_wreapper {
+    justify-content: space-around;
+    width: 93%;
+  }
+  .get_start .key-feature-heading-title {
+    margin-bottom: 1rem;
+  }
+  .get_start .key-feature-heading-small {
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  .get_start_wrapper .banner_side_bg {
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 56%;
+    position: absolute;
+    left: -2px;
+    top: -37px;
+    border-radius: 0px 25px 25px 0;
+    z-index: 0;
+  }
+  .bg_left {
+    background-color: #c1111e0a;
+    height: 356px;
+    width: 1000px;
+    position: absolute;
+    left: -285px;
+    rotate: 22deg;
+    bottom: -19rem;
+  }
+  .bg_right {
+    background-color: #c1111e21;
+    height: 356px;
+    width: 1000px;
+    position: absolute;
+    right: -291px;
+    rotate: 338deg;
+    bottom: -19rem;
+  }
+  .key-feature-text-container {
+    position: relative;
+  }
+  .Pioneering {
+    background-color: #c1111e1a;
+    margin-bottom: 5rem;
+  }
+  .profile_wrapper {
+    border: 1px solid #e1cece;
+    box-shadow: 1px 6px 19px #8c979b2e;
+    padding: 3rem 5rem;
+    width: 66%;
+    margin: auto;
+    text-align: left;
+  }
+  .Pioneering .key-feature-heading-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .profile_image_wrapper {
+    display: flex !important;
+    align-items: center;
+    justify-content: unset;
+    margin-top: 1rem;
+  }
+  .profile_image_wrapper img {
+    color: transparent;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .profile_image_wrapper .img_txt h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  .profile_image_wrapper .img_txt p {
+    margin: 0;
+  }
+  .footer {
+    border-top: 1px solid gray;
+    text-align: center;
+  }
+  .footer .text-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+  }
+  .footer .text-container small {
+    color: rgb(193 17 30);
+    font-weight: 300;
+    font-size: 20px;
+    font-size: 0.875rem;
+    font-family: var(
+      --font-family-sans,
+      ui-sans-serif,
+      system-ui,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Noto Color Emoji"
+    );
+  }
+  .footer .key-feature-container {
+    display: unset;
+  }
+  
+  .input_field {
+    height: 26px;
+    width: 22rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray !important;
+  }
+  /* Responsive Styles */
+  @media (min-width: 640px) {
+    /* For screens 640px and larger */
+    .heading-title {
+      font-size: larger;
+    }
+  
+    .heading-small {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* For screens 768px and larger */
+    .heading-title {
+      font-size: larger;
+    }
+  
+    .heading-small {
+      font-size: x-small;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* For screens 1024px and larger */
+    .heading-title {
+      font-size: lager;
+    }
+  
+    .heading-small {
+      font-size: x-small;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section-container .image-container img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textContainer {
+    padding-left: 2%;
+    flex-basis: 50%;
+    padding-right: 5rem;
+  }
+  
+  .small-text {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    font-weight: 400; /* Thin font weight */
+    font-family: var(
+      --font-family-serif,
+      ui-sans-serif,
+      system-ui,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Noto Color Emoji"
+    );
+    margin-top: 4px;
+  }
+  
+  .small-text-main {
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400; /* Thin font weight */
+    font-family: sans-serif;
+    width: 90%;
+    margin-left: 30px;
+  }
+  
+  .ai_imageContainer {
+    flex-basis: 50%;
+    padding-right: 1rem; /* Optional: Adjust spacing between image and text */
+    margin-top: 12px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 30px;
+  }
+  
+  /* Default button styles */
+  .button {
+    align-items: left;
+    display: inline-block;
+    color: white;
+    /* margin:15px; */
+    margin-left: 30px;
+    background-color: rgb(194, 33, 33);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 14px 42px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 1200px) {
+    .button {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+    }
+  }
+  
+  .comment {
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .comment span {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #334155;
+    font-weight: 400;
+  }
+  
+  .comment_by {
+    padding-left: 30px;
+  }
+  
+  /* styles.css */
+  
+  .key-feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+  }
+  
+  .key-feature-text-container {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .key-feature-heading-title {
+    font-size: 3rem; /* Base size for heading */
+    font-weight: bold;
+    line-height: 1;
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Padding for spacing */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .key-feature-heading-small {
+    font-size: 1.12rem; /* Base size for smaller text */
+    margin: 0; /* Remove default margin */
+    padding: 10px 0;
+    color: #414852;
+  }
+  
+  .recruitment-portal-heading {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: 0px;
+  }
+  
+  .ai_portal_rapper {
+    font-weight: 900;
+    /* padding-right: 110px; */
+    width: 50%;
+  }
+  
+  .ai_potal_blog {
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .ai_potal_bloger_name {
+    font-weight: 700;
+    font-family: sans-serif;
+    display: inline;
+  }
+  
+  .ai_bloger_designation {
+    display: inline;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 640px) {
+    /* For screens 640px and larger */
+    .key-feature-heading-title {
+      font-size: 2rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+  
+    .key-feature-heading-small {
+      font-size: 21px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* For screens 768px and larger */
+    .key-feature-heading-title {
+      font-size: 2rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+  
+    .key-feature-heading-small {
+      font-size: 21px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* For screens 1024px and larger */
+    .key-feature-heading-title {
+      font-size: 3rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+  
+    .key-feature-heading-small {
+      font-size: 21px;
+    }
+  }
+  
+  .rateing {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  /* Add additional styles as needed */
+  
+  @media (max-width: 1200px) {
+  }
+  @media (max-width: 1150px) {
+    .large-text{
+      font-size: 3rem;
+    }
+    .banner_innerbox .textContainer{
+      padding-right: 0;
+    }
+    .ai_imageContainer{
+      width: 500px;
+      height: 300px;
+    }
+    .ai_portal_rapper{
+      padding-right: 1rem;
+    }
+    .Cloud-Based .section_five_imageContainer img{
+      height: 362px;
+      width: 512px;
+    }
+    .Cloud-Based{
+      margin: 2rem;
+      padding-bottom: 10rem;
+    }
+    .Interactive_Demo .img_wrapper img{
+      width: 645px;
+      height: 28rem;
+    }
+    .Interactive_sec .img_wrapper{
+      width: 50%;
+    }
+    .section_five_wrapper_textContainer {
+      padding: 128px 24px 0px 0px;
+  }
+  }
+  @media (max-width: 992px) {
+    .dot_svg,
+    .banner_side_bg {
+      display: none;
+    }
+    .container,
+    .ai_recruitment_container,
+    .section_five_wrapper {
+      flex-wrap: wrap;
+    }
+    .contant_wrapper {
+      width: 100%;
+    }
+    .large-text {
+      font-size: 2rem;
+    }
+    .banner-img img {
+      /* position: absolute; */
+      top: 1%;
+      right: -2%;
+      z-index: 99999999;
+      width: 50%;
+      height: 100%;
+      display: none;
+    }
+    .top_banner .textContainer {
+      padding: 0;
+    }
+    .top_banner .banner_innerbox {
+      width: 100%;
+    }
+    .get_start {
+      margin: 4rem;
+      padding: 2rem 4rem !important;
+    }
+    .box_2 {
+      display: none;
+    }
+    .banner_innerbox .textContainer {
+      margin: auto;
+      padding-left: 2%;
+      flex-basis: 76%;
+    }
+    .ai_portal_rapper {
+      width: 100%;
+      padding: 5rem;
+    }
+    .ai_imageContainer {
+      margin: auto;
+    }
+    .section_five_wrapper {
+      flex-wrap: wrap-reverse;
+    }
+    .section_five_wrapper_textContainer,
+    .textContainer {
+      width: 100%;
+      flex-basis: unset;
+      height: 100%;
+      padding: 5rem;
+    }
+    .section_five_imageContainer,
+    .imageContainer {
+      margin: auto;
+    }
+    .Choose_HrPro .container {
+      flex-direction: column-reverse;
+    }
+    .Academic_sec .textContainer {
+      width: 100%;
+    }
+    .Interactive_sec .text_wrapper {
+      width: 100%;
+      padding: 2rem 5rem;
+    }
+    .Interactive_sec .img_wrapper img {
+      width: 600px;
+      height: 400px;
+    }
+    .About_HrPro .container {
+      flex-direction: column-reverse;
+    }
+    
+    .Interactive_sec button {
+      height: 3rem;
+    }
+    .slider_slider .key-feature-text-container {
+      width: 100%;
+    }
+    .textContainer {
+      padding: 5rem;
+    }
+    .Choose_HrPro .textContainer {
+      width: unset !important;
+    }
+    .Choose_HrPro .mobile {
+      margin: auto;
+    }
+    .Choose_HrPro .mobile img {
+      width: 600px;
+      height: 400px;
+      margin: auto;
+    }
+    .About_HrPro .img_wrapper img {
+      width: 80% !important;
+      height: 23rem !important;
+    }
+    .About_HrPro .text_wrapper {
+      width: 80%;
+    }
+    .Get_in_Touch .img_wrapper {
+      width: 80%;
+    }
+    .Interactive_sec .img_wrapper {
+      width: unset !important;
+      margin: auto !important;
+    }
+    .get_start_wrapper .button{
+      height: 3rem;
+      width: 300px;
+    }
+  }
+  @media (max-width: 768px) {
+    
+    .banner-img img {
+      display: none;
+    }
+    .landing_page .image-container img {
+      width: 100%;
+    }
+    .key-feature-text-container{
+      /* padding: 2rem !important; */
+    }
+    .key-feature-heading-title{
+      font-size: 2rem !important;
+      line-height: 2rem;
+    }
+    .slider_slider img{
+      width: unset !important;
+    }
+    .Questions_sec .key-feature-text-container{
+      width: unset !important;
+    }
+    .get_start_wrapper .multi-img {
+      display: none;
+    }
+    .get_start{
+      margin: 1rem;
+      padding: 2rem 0rem !important;
+    }
+    .Pioneering .key-feature-text-container{
+      padding: 0 !important;
+    }
+    .Pioneering .profile_wrapper img{
+      width: unset;
+    }
+  .Pioneering .profile_wrapper{
+    padding: 3rem;
+  }
+  .Pioneering .key-feature-container {
+    padding: 2rem;
+  }
+  .Pioneering .key-feature-heading-title {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .footer .text-container{
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .footer .key-feature-container{
+    padding: 2rem;
+  }
+  .get_start .key-feature-heading-small {
+    padding: 0 2rem;
+  }
+  }
+  @media (max-width: 575px) {
+    .banner_innerbox .textContainer {
+      flex-basis: unset;
+    }
+    .key-feature {
+      padding: 2rem;
+    }
+    .ai_imageContainer img {
+      width: 400px;
+      height: 250px;
+    }
+    .ai_portal_rapper {
+      padding: 2rem;
+    }
+    .Cloud-Based .section_five_wrapper_textContainer {
+      padding: 2rem;
+    }
+    .Cloud-Based .section_five_imageContainer img {
+      width: 400px;
+      height: 250px;
+    }
+    .Academic_sec .imageContainer img {
+      width: 400px;
+      height: 250px;
+    }
+    .Academic_sec .textContainer {
+      padding: 2rem;
+    }
+    .Choose_HrPro .mobile img {
+      width: 381px;
+      height: 330px;
+    }
+    .Choose_HrPro .textContainer {
+      padding: 2rem;
+    }
+    .Interactive_sec .img_wrapper img {
+      width: 400px !important;
+      height: 250px !important;
+    }
+    .Interactive_sec .text_wrapper {
+      padding: 2rem;
+    }
+    .input_wrapper {
+      display: flex;
+      flex-direction: column;
+  }
+  .input_field{
+    width: 94%;
+    margin-bottom: 20px;
+  }
+  .input_wrapper .button{
+    margin: 0;
+    height: 40px;
+  }
+  .social_media_icon{
+    margin: 1rem !important;
+  }
+  .footer .text-container{
+    padding-top: 20px !important;
+  }
+  .Interactive_sec .text_wrapper {
+    align-items: center;
+  }
+  .small-text{
+    text-align: center;
+  }
+  .Questions_sec .key-feature-text-container {
+    padding: 1rem;
+  }
+  .recruitment-portal-heading{
+    text-align: center;
+  }
+  .small-text-main {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .large-text {
+    font-size: 2rem;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+    
+  }
+  @media (max-width: 425px) {
+    .Interactive_sec .text_wrapper {
+      padding: 1rem;
+  }
+  .ai_portal_rapper {
+    padding: 1rem;
+  }
+  .Cloud-Based {
+    margin:0rem;
+    padding-bottom: 20px;
+  }
+  .Cloud-Based .section_five_wrapper_textContainer {
+    padding: 1rem;
+  }
+  .Academic_sec .textContainer {
+    padding: 1rem;
+  }
+  .Choose_HrPro .textContainer {
+    padding: 1rem;
+  }
+  
+  .input_wrapper {
+    padding: 1rem;
+  }
+  .Interactive_sec .text_wrapper {
+    padding: 0rem;
+  }
+  
+  
+  }
+  
