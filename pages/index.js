@@ -278,7 +278,7 @@ const Mainpro = ({ webTitleLogo, sectionOne,sectionSecond,sectionThree,sectionFo
                         <hr></hr>
                         <div></div>
                         <p className='comment'>
-                            “HrPro's Cloud Software: Efficient, integrated, and indispensable for modern businesses.”
+                            “HrPro&apos;s Cloud Software: Efficient, integrated, and indispensable for modern businesses.”
                         </p>
                         <p className='comment_by'>
                             Pieter de Vries (SME Owner)
