@@ -4,7 +4,7 @@ import { createClient } from 'contentful';
 
 export async function getStaticProps() {
     const client = createClient({
-        space: process.env.CONTENTFUL_SPACE_ID,
+        space: "ksczdrrazq0d",
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN ,
     });
 
