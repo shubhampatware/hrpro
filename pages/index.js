@@ -13,43 +13,43 @@ export async function getStaticProps() {
     });
 
     const sectionOne_Res = await client.getEntries({
-        content_type: 'sectionOne',
+        content_type: 'welcomeSection',
     });
 
     const sectionSecond_Res = await client.getEntries({
-        content_type: 'sectionSecond',
+        content_type: 'keyFeatures',
     });
 
     const sectionThree_Res = await client.getEntries({
-        content_type: 'sectionThree',
+        content_type: 'aiRecruitmentPortal',
     });
 
     const sectionFour_Res = await client.getEntries({
-        content_type: 'sectionFour',
+        content_type: 'cloudBasedPayrollSoftware',
     })
 
     const sectionFive_Res = await client.getEntries({
-        content_type: 'sectionFive',
+        content_type: 'academicPathwayServices',
     })
 
     const sectionSix_Res = await client.getEntries({
-        content_type: 'sectionSix',
+        content_type: 'whyChooseHrPro',
     })
 
     const sectionSeven_Res = await client.getEntries({
-        content_type: 'sectionSeven',
+        content_type: 'interactiveDemo',
     })
 
     const sectionEight_Res = await client.getEntries({
-        content_type: 'sectionEight',
+        content_type: 'aboutHrPro',
     })
 
     const sectionNine_Res = await client.getEntries({
-        content_type: 'sectionNine'
+        content_type: 'getInTouch'
     })
 
     const sectionTen_Res = await client.getEntries({
-        content_type: 'sectionTen'
+        content_type: 'statusSection'
     })
 
     const sectionEleven_Res = await client.getEntries({
